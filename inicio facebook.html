@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Inicio facebook</title>
+    <link rel="stylesheet" href="inicio gmail.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>&bull; Melodies Perfect - Facebook &bull;</h1>
+        <div class="underline"></div>
+
+
+        <form action="#" method="post" id="contact_form">
+
+
+
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Mi cuenta de facebook es" name="email" id="email_input" required>
+            </div>
+
+            <select type=text placeholder="ID" name="ID" id="ID_input" required>
+        <option disabled hidden selected>Tipo de ID</option>
+        <option>Cedula de ciudadania</option>
+        <option>Documento de extranjero</option>
+        <option>Tarjeta de ID</option>
+        </select>
+
+            <div class="NumID">
+                <label for="NumID"></label>
+                <input type="number" placeholder="Numero de ID" name="NumID" id="NumID_input" required>
+            </div>
+
+            <div class="telefono">
+                <label for="telefono"></label>
+                <input type="number" placeholder="Mi numero celular es:" name="telefono" id="telefono_input" required>
+            </div>
+
+            <div class="a">
+                <label for="a"></label>
+                <input type="password" name="pass" placeholder="Contraseña" id="contraseña_input" required>
+            </div>
+
+
+
+            <div class="submit">
+                <input type="submit" value="Registrarme" id="form_button" onclick="red()" />
+
+
+
+                <script>
+                    function red() {
+                        location.href = "Primera interfaz.html";
+                    }
+                </script>
+            </div>
+</body>
+
+</html>

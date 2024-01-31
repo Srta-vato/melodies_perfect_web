@@ -1,0 +1,62 @@
+#search-box {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+#search-form {
+    height: 32px;
+    border: 1px solid #cbf3ee;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #e66cbd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 8px 0 12px 1em;
+    color: #000000;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 34px;
+    width: 80px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 4px;
+    border-width: 0;
+    background-color: #d355b4;
+    -webkit-border-radius: 0px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;
+    cursor: pointer;
+}
+
+body {
+    background: url(Imagenes/carrusel3.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+}

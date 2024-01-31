@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+h1, h3 {
+    color: #333;
+}
+
+.node {
+    display: inline-block;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Style the main navigation links */
+a:hover {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Style the sub-navigation links */
+.node a {
+    color: #555;
+    font-size: 14px;
+}
+
+.node a:hover {
+    color: #e74c3c;
+    font-weight: normal;
+}
+
+/* Style the connections between nodes */
+.line {
+    width: 0;
+    height: 20px;
+    border-left: 2px solid #3498db;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+/* Style the top-level list items */
+.node > a {
+    font-weight: bold;
+}
+
+/* Style the sub-navigation lists */
+.node:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    margin-top: 15px;
+}
+
+/* Style the sub-menu items */
+.sub-menu a {
+    display: block;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #333;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.sub-menu a:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}

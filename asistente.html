@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente</title>
+    <link rel="stylesheet" href="asistente.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="parent">
+        <div class="desc">
+            <h1 class="text">Asistente Virtual Melodies Perfect</h1>
+            <p>Hola, yo soy Melody tu asistente virtual, te puedo ayudar a encontrar productos mucho mas rapido, con alguna falla que estes teniendo e incluso activar herramientas especiales para personas sordas o ciegas y tambien ponerte en contacto con
+                algun asesor en caso de que yo no pueda ayudarte. Asi que y asabes si necesitas ayuda aqui tienes una fiel amiga ^^
+            </p>
+            <button id="init">Iniciar Chat</button>
+        </div>
+        <div>
+            <img src="Imagenes/asistente.jpg" class="bot-img">
+        </div>
+    </div>
+    <div id="test" style="position: fixed;top: 4rem;right: 8rem;display: none;">
+        <div class="child" id="chatbot">
+            <div class="header">
+                <div class="h-child">
+                    <img src="Imagenes/Melody.jpg" alt="avatar" id="avatar">
+                    <div>
+                        <span class="name">Melody</span>
+                        <br>
+                        <span style="color:lawngreen">En linea</span>
+                    </div>
+                </div>
+                <div>
+                    <button class="refBtn"><i class="fa fa-refresh" onclick="initChat()"></i></button>
+                </div>
+            </div>
+
+            <div id="chat-box">
+
+            </div>
+            <div class="footer">
+                <span>Melodies Perfect</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="asistente.js"></script>
+</body>
+
+</html>
